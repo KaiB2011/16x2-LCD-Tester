@@ -1,10 +1,12 @@
 **16x2 LCD Tester Compatible Devices*
 
+Key:
+🟩 - Compatible
+🟧 - Compatible but not tested
+🟥 - Not Compatible
+
 • Arduino Uno 🟩
 • Arduino Nano 🟩
 • Raspberry Pi 🟧 
 • Raspberry Pi Pico 🟩
 • BBC Microbit 🟥
-
-
-• 🟥 🟩 🟧
