@@ -1,4 +1,4 @@
-**16x2-LCD-Tester**
+<img width="381" height="92" alt="image" src="https://github.com/user-attachments/assets/fbeb87f3-2254-4408-887e-86125528eda0" />
 
 This is an app (Currently only compatible with Arduino) that allows you to test the FPS of your LCD Display!
 
