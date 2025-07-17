@@ -1,5 +1,4 @@
 <img width="381" height="92" alt="image" src="https://github.com/user-attachments/assets/fbeb87f3-2254-4408-887e-86125528eda0" />
-**Actual Screenshot**
 
 This is an app (Currently only compatible with Arduino) that allows you to test the FPS of your LCD Display!
 
@@ -21,6 +20,7 @@ This is an app (Currently only compatible with Arduino) that allows you to test 
 You can install the `LiquidCrystal_I2C` library via the Arduino Library Manager.
 
 <img width="2625" height="581" alt="image" src="https://github.com/user-attachments/assets/b317ab84-cdac-4244-a07d-6812c3f0f299" />
+**Actual Screenshot**
 
 ## 🔧 Wiring
 
