@@ -11,7 +11,6 @@ float maxFPS = 0;
 
 const int maxRAM = 1024;
 
-// Full block for smooth bar
 byte fullBlock[8] = {
   B11111,
   B11111,
@@ -36,15 +35,13 @@ void setup() {
 
   lcd.createChar(0, fullBlock);
 
-  // --- Show centered "Loading..." ---
   lcd.clear();
   centerText("Loading...", 0);
   delay(1000);
 
-  // --- Smooth full-width loading bar ---
   lcd.setCursor(0, 1);
   for (int i = 0; i < 16; i++) {
-    lcd.write(byte(0));  // full block
+    lcd.write(byte(0));  
     delay(154);
   }
 
@@ -53,16 +50,15 @@ void setup() {
 }
 
 void loop() {
-  // Stop counting at 10000
+
   if (frameCount <= 10000) {
     lcd.setCursor(0, 0);
     lcd.print("Count: ");
     lcd.print(frameCount);
-    lcd.print("    "); // clear extra digits
+    lcd.print("    "); 
     frameCount++;
   }
 
-  // Update FPS + RAM once per second
   if (millis() - lastFPSUpdate >= 1000) {
     fps = (float)frameCount / ((millis() - lastPrintTime) / 1000.0);
     if (fps > maxFPS) maxFPS = fps;
